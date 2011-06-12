@@ -228,11 +228,23 @@ body {
   text-align: center; }
 
 /* line 51, ../../views/stylesheets/style.css.sass */
+section {
+  margin-bottom: 30px; }
+
+/* line 54, ../../views/stylesheets/style.css.sass */
+a {
+  text-decoration: none;
+  font-weight: bold; }
+  /* line 57, ../../views/stylesheets/style.css.sass */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 60, ../../views/stylesheets/style.css.sass */
 h1 {
   font-size: 24px;
   margin-bottom: 25px; }
 
-/* line 55, ../../views/stylesheets/style.css.sass */
+/* line 64, ../../views/stylesheets/style.css.sass */
 #hovers {
   margin: 0;
   padding: 0;
@@ -249,11 +261,11 @@ h1 {
     white-space: nowrap;
     display: inline;
     float: left; }
-  /* line 59, ../../views/stylesheets/style.css.sass */
+  /* line 68, ../../views/stylesheets/style.css.sass */
   #hovers li {
     margin: 0 8px; }
 
-/* line 63, ../../views/stylesheets/style.css.sass */
+/* line 72, ../../views/stylesheets/style.css.sass */
 #twitter {
   text-indent: -119988px;
   overflow: hidden;
@@ -295,7 +307,7 @@ h1 {
     .no-opacity #twitter:hover span {
       visibility: visible; }
 
-/* line 66, ../../views/stylesheets/style.css.sass */
+/* line 75, ../../views/stylesheets/style.css.sass */
 #facebook {
   text-indent: -119988px;
   overflow: hidden;
@@ -337,7 +349,7 @@ h1 {
     .no-opacity #facebook:hover span {
       visibility: visible; }
 
-/* line 69, ../../views/stylesheets/style.css.sass */
+/* line 78, ../../views/stylesheets/style.css.sass */
 #forrst {
   text-indent: -119988px;
   overflow: hidden;
@@ -379,7 +391,7 @@ h1 {
     .no-opacity #forrst:hover span {
       visibility: visible; }
 
-/* line 72, ../../views/stylesheets/style.css.sass */
+/* line 81, ../../views/stylesheets/style.css.sass */
 #rss {
   text-indent: -119988px;
   overflow: hidden;
@@ -421,11 +433,11 @@ h1 {
     .no-opacity #rss:hover span {
       visibility: visible; }
 
-/* line 75, ../../views/stylesheets/style.css.sass */
+/* line 84, ../../views/stylesheets/style.css.sass */
 #sprite {
   margin-bottom: 30px; }
 
-/* line 78, ../../views/stylesheets/style.css.sass */
+/* line 87, ../../views/stylesheets/style.css.sass */
 #whatshere {
   list-style: none;
   margin: 0;
@@ -435,7 +447,7 @@ h1 {
     list-style-image: none;
     list-style-type: none;
     margin-left: 0px; }
-  /* line 82, ../../views/stylesheets/style.css.sass */
+  /* line 91, ../../views/stylesheets/style.css.sass */
   #whatshere li {
     font-size: 18px;
     margin: 0;
