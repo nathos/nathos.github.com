@@ -252,7 +252,7 @@ h1 {
   overflow: hidden;
   *zoom: 1;
   width: 285px;
-  margin: 0 auto 30px; }
+  margin: 0 auto 15px; }
   /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   #hovers li {
     list-style-image: none;
@@ -435,7 +435,7 @@ h1 {
 
 /* line 84, ../../views/stylesheets/style.css.sass */
 #sprite {
-  margin-bottom: 30px; }
+  margin-bottom: 15px; }
 
 /* line 87, ../../views/stylesheets/style.css.sass */
 #whatshere {
