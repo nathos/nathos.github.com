@@ -11,9 +11,10 @@
     <title>Compass fancy-hover</title>
     <meta content='' name='description'>
     <meta content='' name='author'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!-- %meta{:name =>"viewport", :content => "width=device-width, initial-scale=1.0"} -->
     <link href='/favicon.ico' rel='shortcut icon'>
-    <link href='/stylesheets/style.css?v=2' rel='stylesheet'>
+    <link href='/apple-touch-icon.png' rel='apple-touch-icon'>
+    <link href='/stylesheets/style.css?v=1' rel='stylesheet'>
     <script src='/javascripts/libs/modernizr-1.7.min.js'></script>
   </head>
   <body>
@@ -43,20 +44,41 @@
           <p>They use <a href="http://www.alistapart.com/articles/understanding-css3-transitions/">CSS3 transitions</a> to ramp the opacity of the hover state. Pretty slick, eh?</p>
         </section>
         <section>
-          <h1>Here's the <a href="http://compass-style.org/">Compass</a>-generated <a href="http://compass-style.org/help/tutorials/spriting/">spritesheet</a>:</h1>
+          <h1>Here's the <a href="http://compass-style.org/">Compass</a> generated <a href="http://compass-style.org/help/tutorials/spriting/">spritesheet</a>:</h1>
           <div id='sprite'>
-            <img alt='the generated sprite' src='/images/hovertest-7cd2242a05.png'>
+            <img alt='Compass-generated spritesheet' src='/images/my_sprites-767a2f24d0.png'>
           </div>
           <p>Didn't have to make this by hand. Thanks Compass!</p>
         </section>
         <section>
-          <h1>
-            Get the source code for this mixin
-            <a href='https://gist.github.com/959764'>here</a>
-          </h1>
+          <h1>Get the source code for this mixin <a href="https://gist.github.com/959764">here</a>.</h1>
         </section>
       </div>
       <footer></footer>
     </div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js'></script>
+    <script>
+      //<![CDATA[
+        window.jQuery || document.write("<script src='javascripts/libs/jquery-1.5.1.min.js'>\x3C/script>")
+      //]]>
+    </script>
+    <!-- %script{:src => "/javascripts/plugins.js"} -->
+    <!-- %script{:src => "/javascripts/script.js"} -->
+    <!--[if lt IE 7 ]>
+      <script src='/javascripts/libs/dd_belatedpng.js'></script>
+      <script>
+        //<![CDATA[
+          DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb
+        //]]>
+      </script>
+    <![endif]-->
+    <script>
+      //<![CDATA[
+        var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+        g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+        s.parentNode.insertBefore(g,s)}(document,"script"));
+      //]]>
+    </script>
   </body>
 </html>

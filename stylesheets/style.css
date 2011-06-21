@@ -222,29 +222,42 @@ a, a:active, a:visited {
 a:hover {
   color: #003366; }
 
-/* line 47, ../../views/stylesheets/style.css.sass */
+/* line 21, ../../views/stylesheets/style.css.sass */
 body {
   padding: 30px;
   text-align: center; }
 
-/* line 51, ../../views/stylesheets/style.css.sass */
+/* line 25, ../../views/stylesheets/style.css.sass */
 section {
   margin-bottom: 30px; }
 
-/* line 54, ../../views/stylesheets/style.css.sass */
+/* line 28, ../../views/stylesheets/style.css.sass */
 a {
   text-decoration: none;
   font-weight: bold; }
-  /* line 57, ../../views/stylesheets/style.css.sass */
+  /* line 31, ../../views/stylesheets/style.css.sass */
   a:hover {
     text-decoration: underline; }
 
-/* line 60, ../../views/stylesheets/style.css.sass */
+/* line 34, ../../views/stylesheets/style.css.sass */
 h1 {
   font-size: 24px;
   margin-bottom: 25px; }
 
-/* line 64, ../../views/stylesheets/style.css.sass */
+/* line 38, ../../views/stylesheets/style.css.sass */
+#whatshere {
+  list-style: none;
+  margin: 0; }
+  /* line 11, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+  #whatshere li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0px; }
+  /* line 41, ../../views/stylesheets/style.css.sass */
+  #whatshere li {
+    font-size: 18px; }
+
+/* line 44, ../../views/stylesheets/style.css.sass */
 #hovers {
   margin: 0;
   padding: 0;
@@ -253,7 +266,7 @@ h1 {
   *zoom: 1;
   width: 285px;
   margin: 0 auto 15px; }
-  /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   #hovers li {
     list-style-image: none;
     list-style-type: none;
@@ -261,197 +274,177 @@ h1 {
     white-space: nowrap;
     display: inline;
     float: left; }
-  /* line 68, ../../views/stylesheets/style.css.sass */
+  /* line 48, ../../views/stylesheets/style.css.sass */
   #hovers li {
     margin: 0 8px; }
-
-/* line 72, ../../views/stylesheets/style.css.sass */
-#twitter {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  width: 55px;
-  height: 55px;
-  background: url('/images/hovertest-7cd2242a05.png') 0 -330px no-repeat;
-  display: block;
-  position: relative; }
-  /* line 30, ../../views/stylesheets/style.css.sass */
-  #twitter span {
+  /* line 50, ../../views/stylesheets/style.css.sass */
+  #hovers #twitter {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
     width: 55px;
     height: 55px;
-    background: url('/images/hovertest-7cd2242a05.png') 0 -385px no-repeat;
+    background: url('/images/my_sprites-767a2f24d0.png') 0 -330px no-repeat;
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -moz-transition-property: opacity;
-    -webkit-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out; }
-    /* line 40, ../../views/stylesheets/style.css.sass */
-    .no-opacity #twitter span {
-      visibility: hidden; }
-  /* line 42, ../../views/stylesheets/style.css.sass */
-  #twitter:hover span {
-    opacity: 1; }
-    /* line 44, ../../views/stylesheets/style.css.sass */
-    .no-opacity #twitter:hover span {
-      visibility: visible; }
-
-/* line 75, ../../views/stylesheets/style.css.sass */
-#facebook {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  width: 55px;
-  height: 55px;
-  background: url('/images/hovertest-7cd2242a05.png') 0 0 no-repeat;
-  display: block;
-  position: relative; }
-  /* line 30, ../../views/stylesheets/style.css.sass */
-  #facebook span {
+    position: relative; }
+    /* line 11, ../../views/stylesheets/_mixins.sass */
+    #hovers #twitter span {
+      width: 55px;
+      height: 55px;
+      background: url('/images/my_sprites-767a2f24d0.png') 0 -385px no-repeat;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      -moz-transition-property: opacity;
+      -webkit-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -moz-transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -moz-transition-timing-function: ease-in-out;
+      -webkit-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out; }
+      /* line 21, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #twitter span {
+        visibility: hidden; }
+    /* line 23, ../../views/stylesheets/_mixins.sass */
+    #hovers #twitter:hover span {
+      opacity: 1; }
+      /* line 25, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #twitter:hover span {
+        visibility: visible; }
+  /* line 52, ../../views/stylesheets/style.css.sass */
+  #hovers #facebook {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
     width: 55px;
     height: 55px;
-    background: url('/images/hovertest-7cd2242a05.png') 0 -55px no-repeat;
+    background: url('/images/my_sprites-767a2f24d0.png') 0 0 no-repeat;
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -moz-transition-property: opacity;
-    -webkit-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out; }
-    /* line 40, ../../views/stylesheets/style.css.sass */
-    .no-opacity #facebook span {
-      visibility: hidden; }
-  /* line 42, ../../views/stylesheets/style.css.sass */
-  #facebook:hover span {
-    opacity: 1; }
-    /* line 44, ../../views/stylesheets/style.css.sass */
-    .no-opacity #facebook:hover span {
-      visibility: visible; }
-
-/* line 78, ../../views/stylesheets/style.css.sass */
-#forrst {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  width: 55px;
-  height: 55px;
-  background: url('/images/hovertest-7cd2242a05.png') 0 -110px no-repeat;
-  display: block;
-  position: relative; }
-  /* line 30, ../../views/stylesheets/style.css.sass */
-  #forrst span {
+    position: relative; }
+    /* line 11, ../../views/stylesheets/_mixins.sass */
+    #hovers #facebook span {
+      width: 55px;
+      height: 55px;
+      background: url('/images/my_sprites-767a2f24d0.png') 0 -55px no-repeat;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      -moz-transition-property: opacity;
+      -webkit-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -moz-transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -moz-transition-timing-function: ease-in-out;
+      -webkit-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out; }
+      /* line 21, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #facebook span {
+        visibility: hidden; }
+    /* line 23, ../../views/stylesheets/_mixins.sass */
+    #hovers #facebook:hover span {
+      opacity: 1; }
+      /* line 25, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #facebook:hover span {
+        visibility: visible; }
+  /* line 54, ../../views/stylesheets/style.css.sass */
+  #hovers #forrst {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
     width: 55px;
     height: 55px;
-    background: url('/images/hovertest-7cd2242a05.png') 0 -165px no-repeat;
+    background: url('/images/my_sprites-767a2f24d0.png') 0 -110px no-repeat;
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -moz-transition-property: opacity;
-    -webkit-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out; }
-    /* line 40, ../../views/stylesheets/style.css.sass */
-    .no-opacity #forrst span {
-      visibility: hidden; }
-  /* line 42, ../../views/stylesheets/style.css.sass */
-  #forrst:hover span {
-    opacity: 1; }
-    /* line 44, ../../views/stylesheets/style.css.sass */
-    .no-opacity #forrst:hover span {
-      visibility: visible; }
-
-/* line 81, ../../views/stylesheets/style.css.sass */
-#rss {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  width: 55px;
-  height: 55px;
-  background: url('/images/hovertest-7cd2242a05.png') 0 -220px no-repeat;
-  display: block;
-  position: relative; }
-  /* line 30, ../../views/stylesheets/style.css.sass */
-  #rss span {
+    position: relative; }
+    /* line 11, ../../views/stylesheets/_mixins.sass */
+    #hovers #forrst span {
+      width: 55px;
+      height: 55px;
+      background: url('/images/my_sprites-767a2f24d0.png') 0 -165px no-repeat;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      -moz-transition-property: opacity;
+      -webkit-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -moz-transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -moz-transition-timing-function: ease-in-out;
+      -webkit-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out; }
+      /* line 21, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #forrst span {
+        visibility: hidden; }
+    /* line 23, ../../views/stylesheets/_mixins.sass */
+    #hovers #forrst:hover span {
+      opacity: 1; }
+      /* line 25, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #forrst:hover span {
+        visibility: visible; }
+  /* line 56, ../../views/stylesheets/style.css.sass */
+  #hovers #rss {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
     width: 55px;
     height: 55px;
-    background: url('/images/hovertest-7cd2242a05.png') 0 -275px no-repeat;
+    background: url('/images/my_sprites-767a2f24d0.png') 0 -220px no-repeat;
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -moz-transition-property: opacity;
-    -webkit-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out; }
-    /* line 40, ../../views/stylesheets/style.css.sass */
-    .no-opacity #rss span {
-      visibility: hidden; }
-  /* line 42, ../../views/stylesheets/style.css.sass */
-  #rss:hover span {
-    opacity: 1; }
-    /* line 44, ../../views/stylesheets/style.css.sass */
-    .no-opacity #rss:hover span {
-      visibility: visible; }
+    position: relative; }
+    /* line 11, ../../views/stylesheets/_mixins.sass */
+    #hovers #rss span {
+      width: 55px;
+      height: 55px;
+      background: url('/images/my_sprites-767a2f24d0.png') 0 -275px no-repeat;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      -moz-transition-property: opacity;
+      -webkit-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -moz-transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -moz-transition-timing-function: ease-in-out;
+      -webkit-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out; }
+      /* line 21, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #rss span {
+        visibility: hidden; }
+    /* line 23, ../../views/stylesheets/_mixins.sass */
+    #hovers #rss:hover span {
+      opacity: 1; }
+      /* line 25, ../../views/stylesheets/_mixins.sass */
+      .no-opacity #hovers #rss:hover span {
+        visibility: visible; }
 
-/* line 84, ../../views/stylesheets/style.css.sass */
+/* line 59, ../../views/stylesheets/style.css.sass */
 #sprite {
   margin-bottom: 15px; }
-
-/* line 87, ../../views/stylesheets/style.css.sass */
-#whatshere {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  /* line 11, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
-  #whatshere li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0px; }
-  /* line 91, ../../views/stylesheets/style.css.sass */
-  #whatshere li {
-    font-size: 18px;
-    margin: 0;
-    padding: 0; }
 
 /* line 4, ../../views/stylesheets/html5boilerplate/_nonsemantichelpers.sass */
 .ir {
